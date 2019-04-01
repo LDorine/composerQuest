@@ -4,7 +4,8 @@ namespace App\Wcs;
 
 class Hello {
 
-    public function talk() {
+    public function talk()
+    {
         return 'Hello World !';
     }
 }
