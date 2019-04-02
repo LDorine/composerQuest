@@ -1,8 +1,8 @@
 <?php
-require __DIR__ . '/vendor/autoload.php';
+require __DIR__ . '../vendor/autoload.php';
 
-USE App\Wcs;
-USE HelloWorld;
+USE App\Wcs\Hello;
+USE HelloWorld\SayHello;
 
 $hello = new Hello();
 echo $hello->talk().'<br>';
