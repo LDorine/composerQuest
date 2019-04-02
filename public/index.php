@@ -1,7 +1,10 @@
 <?php
 require __DIR__ . '/vendor/autoload.php';
 
-$hello = new App\Wcs\Hello();
-echo $hello->talk();
-echo $world = new HelloWorld\SayHello();
+USE App\Wcs;
+USE HelloWorld;
+
+$hello = new Hello();
+echo $hello->talk().'<br>';
+$world = new SayHello();
 echo $world->world();
